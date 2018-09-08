@@ -19,7 +19,7 @@ function deleteFromObjectByKey(object, key) {
 removeFromPlaylist(recipes, 'prop')
 
 function destructivelyDeleteFromObjectByKey(object, key) {
-return delete recipes.prop2
+return delete recipes.key
 }
 removeFromPlaylist(recipes, 'prop2')
 
