@@ -19,7 +19,7 @@ function deleteFromObjectByKey(object, key) {
 removeFromPlaylist(recipes, 'prop')
 
 function destructivelyDeleteFromObjectByKey(object, key) {
-var obj = { prop: 1 }
+var obj = { prop: '1' }
 return delete Object.key
 }
 destructivelyDeleteFromObjectByKey(obj, 'prop')
