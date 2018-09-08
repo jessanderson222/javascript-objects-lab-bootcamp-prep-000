@@ -22,5 +22,5 @@ function destructivelyDeleteFromObjectByKey(object, key) {
 var obj = { prop: 1 }
 return delete obj.prop
 }
-removeFromPlaylist(obj, 'prop')
+destructivelyDeleteFromObjectByKey(obj, 'prop')
 
